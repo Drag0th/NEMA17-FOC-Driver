@@ -1,0 +1,73 @@
+# Embedded C Coding Style
+# Reference: https://github.com/Drag0th/embedded-development-resources
+# Language: C
+# Version: 1.0
+---
+Language: C
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+IndentCaseLabels: true
+IndentCaseBlocks: true
+
+# Line length and wrapping
+ColumnLimit: 100
+ContinuationIndentWidth: 4
+AlignAfterOpenBracket: BlockIndent
+BinPackArguments: false
+BinPackParameters: false
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+AlignOperands: Align
+
+# Braces - Allman Style
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeElse: true
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+
+# Short statements
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+
+# Spacing
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInParentheses: false
+SpacesInCStyleCastParentheses: false
+SpaceAfterCStyleCast: false
+PointerAlignment: Right
+DerivePointerAlignment: false
+
+# Alignment
+AlignConsecutiveAssignments: None
+AlignConsecutiveDeclarations: None
+AlignConsecutiveMacros: None
+AlignEscapedNewlines: DontAlign
+AlignTrailingComments: true
+
+# Preprocessor and includes
+IndentPPDirectives: None
+SortIncludes: false
+
+# Comments and empty lines
+ReflowComments: true
+MaxEmptyLinesToKeep: 1
+KeepEmptyLinesAtTheStartOfBlocks: false
+SpacesBeforeTrailingComments: 1

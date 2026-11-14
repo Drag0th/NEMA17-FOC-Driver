@@ -1,0 +1,5 @@
+Firmware/.vscode/settings.json
+Firmware/.vscode/c_cpp_properties.json
+Firmware/build/
+Firmware/.settings/
+Firmware/.clangd
